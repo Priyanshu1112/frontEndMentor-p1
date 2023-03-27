@@ -1,0 +1,182 @@
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    html, body{
+        width: 100vw;
+        height: 100vh;
+    }
+    
+    
+    
+    .container{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .content{
+        display: flex;
+        width: 50vw;
+        height: 60%;
+        /* background-color: grey; */
+        border-radius: 30px;
+        overflow: hidden;
+        box-shadow: 0 0 20px #c4c5c6;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    }
+    
+    .result{
+        width: 50%;
+        height: 100%;
+        background-image: linear-gradient(to bottom, #6743ff, #322beb);
+        border-radius: 30px;
+        color: white;
+        display: flex;
+        padding: 5%;
+        flex-direction: column;
+        /* align-items: center; */
+        text-align: center;
+        justify-content: space-between;
+    }
+    
+    
+    
+    .marks{
+        background-image: linear-gradient(to bottom, #4c23ca, #4835f1);
+        border-radius: 50%;
+        margin: 0 auto;
+        width: 70%;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: #cbc8fe;
+    } 
+    
+    .marksObtained{
+        font-size: 3vmax;
+        font-weight: 900;
+        color: white;
+    }
+    
+    .result>p{
+        color: #cbc8fe;
+        font-weight: 800;
+        font-size: 1.5vmax;
+    }
+    
+    .result>.great{
+        font-size: 25px;
+        font-weight: bold;
+        color: white;
+    }
+    
+    
+    
+    .result>.text{
+        font-size: 1.2vmax;
+        font-weight: normal;
+    }
+    
+    .summary{
+        width: 50%;
+        height: 100%;
+        padding: 5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    
+    
+    .reaction, .memory, .verbal, .visual{
+        display: flex;
+        justify-content: space-between;
+        padding:  5%;
+        border-radius: 10px;
+        margin-bottom: 5%;
+    }
+    
+    .reaction{
+        background-color: #fff6f5;
+        
+    }
+    
+    .reaction>div{
+        color: #e3939a;
+    }
+    
+    .memory>div{
+        color: #dfcb85;
+    }
+    
+    .verbal>div{
+        color: #66b2a2;
+    }
+    
+    .visual>div{
+        color: #464b99;
+    }
+    
+    .reaction>div, .memory>div, .verbal>div, .visual>div{
+        display: flex;
+        align-items: center;
+        font-size: 1.5vmax;
+        gap: 1vmin;
+        /* min-width: fit-content; */
+    }
+    
+    .memory{
+        background-color: #fffbf2;
+    }
+    
+    .verbal{
+        background-color: #f1fbfa;
+    }
+    
+    .visual{
+        background-color: #f3f3fd    ;
+    }
+    
+    .summaryMarksObtained{
+        color: black;
+        font-weight: 600;
+        font-size: 1.2vmax;
+        /* margin-right: 4%; */
+    }
+    
+    .text{
+        font-size: 1.2vmax;
+        font-weight: bold;
+    }
+    
+    .summaryTotalMarks{
+        color: #cbc8fe;
+        /* margin-left: 2%; */
+    }
+    
+    button{
+        color: white;
+        background-color: #303b59;
+        padding: 1vmax 0;
+        font-weight: bold;
+        font-size: 1.5vmax;
+        border-radius: 2vmax;
+        border: 1px solid white;
+    
+    }
+    
+    button:hover{
+        color: black;
+        background-color: transparent;
+        border: 1px solid black;
+        cursor: pointer;
+    }
+    
